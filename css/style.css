@@ -1,0 +1,152 @@
+/*whidth é largura * e height é altura*/
+
+/*padding espaço pra dentro do objeto* e margin espaço pra fora do objeto*/
+
+
+/* classes */
+
+.borda{
+    border: solid 1px black ;
+}
+
+.caixaCores{
+    position: relative;
+    background-color:#6666ff ;
+    width: 770px;  
+    height: 200px; 
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px; 
+}
+
+.retangulo{
+    background: white;
+    border: 1px solid black;
+    width: 130px;
+    height: 60px;
+    margin: 15px;
+    float: left;
+    margin-right: 20px;
+    padding-right: 70px;
+    padding-top: 0px;
+}
+
+.calendario{
+    width: 548px;
+    height: 200px;
+    float: left;
+    margin-top: 7px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: tomato;
+    
+}
+
+.rodape{
+    background-color: blue;
+    margin-top: 7px;
+    width: 1096px;
+    height: 60;
+    float: left;
+}
+    
+.despedida{
+    float: right;
+}
+
+
+ /* id's */
+
+#principal{
+    width: 1096px;
+    height: auto;
+    margin: auto;
+}
+
+#titulo{
+    background-color: gray;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+    padding-left: 10px;
+}
+
+#formulario{
+    background: #ff99ff;
+    margin-right: 5px;
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 70px; 
+    float: left;
+}
+
+#mensagem{
+    background-color: #9999ff;
+    color: white;
+    font-size: 40px;
+    width:870px ; 
+    height: 135px;
+    float: right;
+    text-align: center;
+    padding-top: 72px;
+}
+
+
+#coresPreferidas{
+    background-color: #cc66ff;
+    padding-left: 10px;
+    padding-top: 5px ;
+    margin-top: 5px;
+     width: 300px;
+    height: 195px; 
+    float: right;
+}
+
+#corTitulo{
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+#alinharaEsquerda{
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+   
+}
+
+#alinharaDireita{
+    float: right;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+#Calcular{
+    float: left ;
+}
+
+#idade{
+    background-color: gray;
+    color: white;
+    font-size: 40px;
+    width: 530px;
+    height: 205px;
+    margin-top: 6px;
+    text-align: center;
+    float: right;
+    line-height: 4.3em;
+    
+}
+
+#rodapeDireita{
+    float: right;
+    padding-top: 33px;
+    margin-right: 100px;
+}
+
+
+#rodapeEsquerda{
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+}
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivência Profissional</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <body>
+        
+        <div id="principal">
+            
+            <!-- titulo -->
+            <div>
+                <h1 id="titulo" class="borda">Html, CSS e JavaScript</h1>
+            </div>
+
+            <!-- Inicio bloco 1 -->
+            <div id="formulario" class="borda"><br>
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="nomeP"> <br>
+                    <label for="NomeP"></label>
+                    <input type="radio" name="Genero" id="genero1" value="você é um menino">Menino<br>
+                    <label for="genero1"></label>
+                    <input type="radio" name="Genero" id="genero2" value="você é uma menina">Menina<br><br>
+                    <label for="genero2"></label>
+                    <button type="button" id="enviar">Enviar</button>
+                </form>
+    
+            </div>
+            <div id="mensagem" class="borda"></div>
+
+            
+            <!-- inicio bloco 2  -->
+            <div class="caixaCores" class="borda">
+                <div>
+                    <div id="fundocor1" class="retangulo"></div>
+                    
+                    <div id="fundocor2" class="retangulo"></div>
+
+                    <div id="fundocor3" class="retangulo"></div>
+
+                    <div id="fundocor4" class="retangulo"></div>
+
+                    <div id="fundocor5" class="retangulo"></div>
+
+                    <div id="fundocor6" class="retangulo"></div>
+                </div>
+            </div>
+
+            <div id="coresPreferidas" class="borda">
+
+                <label id="corTitulo">Cores Preferidas:</label>
+                    <form><br>
+                        <input type="checkbox" id="cor1" name="cb" onclick="vermelho(this)">
+                        <label for="cor1">Vermelho</label><br>
+                        <input type="checkbox" id="cor2" name="cb" onclick="azul(this)">
+                        <label for="cor2">Azul</label><br>
+                        <input type="checkbox" id="cor3" name="cb" onclick="amarelo(this)">
+                        <label for="cor3">Amarelo</label><br>
+                        <input type="checkbox" id="cor4" name="cb" onclick="verde(this)">
+                        <label for="cor4">Verde</label><br>
+                        <input type="checkbox" id="cor5" name="cb" onclick="branco(this)">
+                        <label for="cor5">Branco</label><br>
+                        <input type="checkbox" id="cor6" name="cb" onclick="preto(this)">
+                        <label for="cor6">Preto</label><br>
+                    </form>
+            </div>
+
+            <!-- Inicio do bloco 3 -->
+
+
+
+            <div class="calendario borda">
+
+                <div id="alinharaEsquerda">
+                    <label for="birthday">Que dia é hoje ?</label><br />
+                    <input type="date" id="data1">
+                </div>
+
+
+                <div id="alinharaDireita">
+                    <label for="Nascimento">Quando você nasceu ?</label><br />
+                    <input type="date" id="data2"><br><br><br><br>
+                    <button type="button" id="calcular">Calcular</button>
+                </div>
+            </div>
+
+            <div id="idade" class="borda"></div>
+
+            <div class="rodape borda">
+
+                <div id="rodapeEsquerda">
+                    <h3>Quando chegar aqui você estará arrepiando no front-end!</h3>
+                </div>
+                
+            <div id="rodapeDireita">
+                <select name="despedida" id="opcao">
+                    <option value="">Selecione uma mensagem de despedida</option>
+                    <option value="Obrigado por ter vindo !">Obrigado por ter vindo !</option>
+                    <option value="Até logo !">Até logo !</option>
+                    <option value="Tchau, volte sempre !">Tchau, volte sempre !</option>  
+                </select> 
+                <button type="button" id="finalizar">Finalizar</button>
+            </div>
+            </div>
+         </div>
+         <!-- <script src="js/scrips.js"></script> -->
+         
+         <script src="jquery/jquery-3.5.0.min.js"></script>
+         <script src="jquery/script.js"></script>
+         <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+
+</body>
+</html>
