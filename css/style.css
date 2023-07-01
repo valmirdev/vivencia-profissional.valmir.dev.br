@@ -150,33 +150,3 @@
     color: white;
 }
 
-
-
-
- /* Responsividade */
-
- @media (max-width: 400px) {
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    #formulario{
-        background: #ff99ff;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 385px;
-        padding-left: 10px;
-        padding-bottom: 70px; 
-        float: left;
-    }
-    
-
-
-
- }
-
